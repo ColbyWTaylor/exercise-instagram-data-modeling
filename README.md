@@ -17,5 +17,14 @@ The project is using the SQLAlchemy Python library to generate the database.
 
 ## ❔How to generate the UML diagram?
 
-Type `$ python3 models.py` on the console.
-Open he file `diagram.png` to check out your URML diagram!
+Type `$ python3 src/models.py` on the console.
+Open the file `diagram.png` to check out your URML diagram!
+
+## Must use gitpod to properly install dependencies (4Geeks / Gitpod Instructions)
+
+1 - Use gitpod to open: https://gitpod.io/#https://github.com/breatheco-de/exercise-instagram-data-modeling
+2 - To create the diagram, type into the terminal:
+  pipenv run diagram
+  OR, to run from shell:
+  pipenv shell
+  python3 src/models.py
